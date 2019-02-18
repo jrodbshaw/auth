@@ -1,0 +1,17 @@
+{
+  "extends": ["plugin:react-native-a11y/recommended"],
+  "plugins": ["react", "react-native", "react-native-a11y"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "env": {
+    "react-native/react-native": true,
+    "browser": true
+  }
+}
