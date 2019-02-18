@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import { View } from "react-native";
 import firebase from "firebase";
 
+// * import keys
+const { API_KEY } = require("../config/keys");
+
 // * import Components
 import { Header, Button, Spinner } from "./components/common";
 import LoginForm from "./components/LoginForm";
@@ -12,7 +15,7 @@ export default class App extends Component {
   componentWillMount() {
     // * Initialize Firebase
     firebase.initializeApp({
-      apiKey: "AIzaSyC3cEsOv3boIFxtUK_2ilrjnl_g3F0821Q",
+      apiKey: API_KEY,
       authDomain: "auth-59fb9.firebaseapp.com",
       databaseURL: "https://auth-59fb9.firebaseio.com",
       projectId: "auth-59fb9",
