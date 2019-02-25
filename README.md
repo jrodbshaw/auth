@@ -1,1 +1,1 @@
-# completeReactNative-auth
+# Second exercise from completeReactNative
